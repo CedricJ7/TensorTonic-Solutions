@@ -9,3 +9,4 @@ def gelu(x):
     """
     erf = np.vectorize(math.erf)
     return(1/2*np.asarray(x)*(1+erf(x/np.sqrt(2))))
+
